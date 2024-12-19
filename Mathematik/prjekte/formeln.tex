@@ -1,0 +1,45 @@
+\documentclass[12pt, letterpaper]{article}
+\documentclass[12pt, letterpaper]{article}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{lwarp-titlesec}
+\usepackage{graphicx}
+
+\begin{document}
+\Beweis
+\begin{theorem}
+hallo  
+\end{theorem}
+\newpage
+\section{Die Aufgabe}
+\label{sec:Die Aufgabe}
+sei eine Folge a definiert auf Folgende weise: \\
+Das nte Element der folge a ist die letzte von 0 verschiedene ziffer der zahl n!.
+
+
+
+\section{Begriffsklärung}
+sei eine zahl x. Sei P(x) die letzte von 0 verschiedene ziffer dieser zahl.\\
+
+
+\section{erarbeitete formeln}
+\label{sec:erarbeitete formeln}
+\begin{itemize}
+	\item Sei in der folge a kommen nur die Zahlen 2, 4, 8, 6 vor.
+	\item Sei es gibt nur endlich viele zweien in der Folge
+	\item Es gibt also ein element $a_{x_{0}}$ der Folge a, welches die letzte zwei in der folge ist.\\
+	\item \textbf{Formel:}	\[	
+		x! = 10^{k} \cdot  l + 2\cdot  10^{k-1}
+	\]
+	\item \textbf{Formel:}	\[	
+		(x+k)! = 10^{k}(l\cdot (x+1)(x+2)....(x+k))+2\cdot (x+1)(x+2).....(x+k)\cdot 10^{k-1})
+	\]
+	\item \textsc{goal:}	\[	
+			2\cdot \frac{(x+k)!}{x!}\cdot  10^{k-1} = (l\cdot 10 +2	)10^{k-1}
+	\]
+
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,88 @@
+import os
+
+import numpy as np
+from tabulate import tabulate
+
+path = r"C:\Users\User\Dropbox\Mathematik\data"
+
+
+def FolgeA(a1,  length):
+    folgea = []
+    previouselement = a1
+    for n in range(1, length+1):
+        if n == 1:
+            an = a1
+        else:
+            an = (n-1) * previouselement + 1
+        folgea.append(an)
+        previouselement = an
+    return (folgea)
+
+
+def FolgeB(b1, length):
+    folgeb = []
+    previouselement = b1
+    for n in range(1, length+1):
+        if n == 1:
+            bn = b1
+        else:
+            bn = (n-1) * previouselement - 1
+        folgeb.append(bn)
+        previouselement = bn
+    return (folgeb)
+
+
+lowesta1 = -5
+lowestb1 = -10
+increment = 1
+
+
+head = ['b1/a1']
+allcommonelements = []
+
+rangeb1 = np.arange(float(lowestb1), float(-lowestb1), increment).tolist()
+rangea1 = np.arange(float(lowesta1), float(-lowesta1), increment).tolist()
+
+for b1 in rangeb1:
+    commonelementsbn = []
+    # commonelementsan enthaelt alle listen an gemeinsamen elementen, die das aktuelle an mit jedem bn hat
+    # print(a1)
+    for a1 in rangea1:
+        if b1 == lowestb1:
+            head.append(f'{a1}')
+        commonelementsanbn = []
+        # commonelementsanbn enthaelt die elemente, die das aktuelle a1 mit dem aktuellen b1 gemeinsam hat
+        folgea = FolgeA(a1, 10)
+        folgeb = FolgeB(b1, 10)
+        for elementb in folgeb:
+            for elementa in folgea:
+                if elementb == elementa:
+                    if elementa not in commonelementsanbn:
+                        commonelementsanbn.append(elementa)
+        # print(commonelements)
+        if a1 == lowesta1:
+            commonelementsbn.append(str(b1))
+        commonelementsbn.append(str(commonelementsanbn))
+    allcommonelements.append(commonelementsbn)
+
+
+# for x in allcommonelements:
+#    print(allcommonelements)
+
+
+# print(message)
+
+# print("")
+print(head)
+# for x in allcommonelements:
+#    print(allcommonelements)
+
+# print(head)
+message = tabulate(allcommonelements, headers=head)
+# print(message)
+
+#######################################################################
+TableFile = open(os.path.join(path, "tablefileb1ontop.txt"), "w")
+
+TableFile.writelines(message)
+TableFile.close()

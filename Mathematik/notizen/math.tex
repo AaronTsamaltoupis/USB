@@ -1,0 +1,271 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\graphicspath{\media\Aaron\USBStick}
+\usepackage[utf8]{inputenc}
+\usepackage{lwarp-titlesec}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+\title{Mathematik}
+\author{Aaron Tsamaltoupis}
+
+
+\begin{document}
+\maketitle
+	\begin{center}
+\includegraphics[width = 10cm]{graphics/ghibli wallpaper all characters.jpg}
+\end{center}
+\newpage
+\tableofcontents
+\newpage
+\section{Logic}
+\label{sec:logic}
+\subsection{akkentential logic}
+\label{sec:sentential logic}
+\subsubsection{Sentence symbols}
+\label{sec:Sentence symbols}
+
+\begin{tabular}{c|c|c|c } 
+ \hline
+  &symbol & verbose name& remarks \\ 
+  \hline
+	1 &( & left parenthesis &  \\ 
+	2 &) & right parenthesis &\\ 
+	 3 &$\neg$&negation symbol& not\\
+	 4&$\land$&conjunction symbol& and\\
+	 5&$\lor$&disjunction symbol& or\\
+	 6&$\rightarrow $&conditional symbol&if, then\\
+	 7&$\leftrightarrow $&biconditional symbol & if and only if (iff)\\
+	 ...&A_{1}& first sentence symbol& \\
+	  &A_{2}& second sentence symbol&\\
+	  &...&&\\
+	  &A_{n}&nth sentence symbol&\\
+	  &...&&\\
+
+ \hline
+\end{tabular}
+\begin{itemize}
+	\item The first seven symbols are called the \textit{logical symbols}	Their translation is fixed.\\
+	
+		The logical symbols without the parenthesis are the \textit{sentential connective symbols}.	\\
+		The sentence symbols $A_{i}$ are the \textit{parameters (non logical symbols)}. Their translation is not fixed.
+	\item No sentence symbol is itself a sequence of other sentence symbols.\\
+		That means:
+		
+
+\end{itemize}
+\newpage
+\subsubsection{expressions}
+\label{sec:expressions}
+An expression is a finite sequence of symbols.\\
+bspw: $(\neg A_{1})$\\
+If $\alpha$ and $\beta$ are expressions $\alpha\beta$ is the sequence of consisting of all the senctence symbols in $\alpha$ followed by all in $\beta$.\\
+Sei\\ $\alpha$ = (\neg A_{1})\\
+$\beta$=A_{2}\\
+
+\\ $\alpha \rightarrow \beta$ then is  $(\neg A_{1}) \rightarrow A_{2}$ 
+
+\\
+If parameters are combined with the logical symbols expressions can be used to translate english sentences into the logical language.
+
+\\\\Some expressions are nonsense. Bspw: $((\rightarrow A_{3}$
+
+This is why \textit{grammatically correct}	expressions are defined as \hyperref[sec:well formed formulas]{well formed formulas}
+\subsubsection{well formed formulas}
+
+\label{sec:well formed formulas}
+The definition of the well formed formulas aims to exclude the nonsensical expressions:\\
+\begin{itemize}
+	\item Every sentece symbol is a wff.
+	\item If $\alpha$ and $\beta$ are wffs, then so are $\neg \alpha, (\alpha \land \beta)$, $(\alpha \lor \beta)$, $(\alpha \rightarrow \beta)$, 
+\end{itemize}
+\textbf{the formula-building operations}
+\begin{enumerate}
+	
+	\item $\varepsilon_{\neg}(\alpha) = (\neg \alpha)$
+	\item $\varepsilon_{\land }(\alpha, \beta) = (\alpha \land \beta)$
+	\item $\varepsilon_{\lor }(\alpha, \beta)= (\alpha \lor \beta)$
+	\item $\varepsilon_{\rightarrow }(\alpha, \beta) = (\alpha \rightarrow  \beta)$
+	\item $\varepsilon_{\leftrightarrow }(\alpha, \beta) = (\alpha \leftrightarrow  \beta)$
+
+
+\end{enumerate}
+
+\newpage
+
+
+\subsubsection{Truth Assignments}
+\label{sec:Truth Assignments}
+What does it mean for one wff to \textit{follow logically from other wffs}	?
+When an expression $\alpha$ follows logically from another expression $\beta$ then no matter how the sentence symbols in $\beta$ and $\alpha$ are tanslated, if $\beta$ is true $\alpha$ will be true as well.\\
+Example: $A_{1} $ follows logically from $A_{1}\land A_{2}$
+\\That means: $(A_{1}\land A_{2})\rightarrow A_{1}$ is true.
+\\Clearer Definition of the translation of sentence symbols:\\\\ \textbf{Truth Assignments}	\\
+Sei $S$ a set of sentence Symbols.\\
+Sei a set $\{F, T\}$ of truth values.\\
+sei a function $v: S\rightarrow \{F,T\}$ the \textit{truth assignment}	 which determines whether each sentence symbol is true or false.\\
+\\
+Sei $\overline{S}$ the set of all wffs that can be built up from $S$ using the \hyperref[sec:well formed formulas]{formula-building operations}.\\
+
+sei another function $\overline{v}: \overline{S}\rightarrow \{F, T\}$ for which 6 conditions hold:\\
+
+Conditions for $\overline{v}: \overline{S}\rightarrow \{F, T\}$:\\
+\begin{itemize}
+	
+	0.  	\forall A\in S(\overline{v}(A) = v(A))$\\
+	\textit{this means $\overline{v}$ is an \hyperref[sec: extended/restricted functions]{extension} of $v$}	\\
+\end{itemize}
+\begin{enumerate}
+	\item 	(
+	$\overline{v}((\neg \alpha)) =$ 
+	\begin{cases}
+		T if $\overline{v}(\alpha)= F$	\\
+		F\ otherwise
+	\end{cases}$
+	\item 
+	\item 
+	$\overline{v}((\alpha\land \beta))=$ \begin{cases}
+	T\ if\ $\overline{v}(\alpha)= T \ and \ \overline{v}(\beta)=T $\\
+	F \ otherwise
+		\end{cases}
+	\item  
+	$\overline{v}((\alpha\lor \beta))=$ \begin{cases}
+	T\ if\ $\overline{v}(\alpha)= T \ or \ \overline{v}(\beta)=T \ (or \ both) $\\
+	F \ otherwise
+		\end{cases}
+	\item 
+	$\overline{v}((\alpha \rightarrow  \beta))=$ \begin{cases}
+	F\ if\ $\overline{v}(\alpha)= T \ and \ \overline{v}(\beta)=F $\\
+	T \ otherwise
+		\end{cases}
+	\item $\overline{v}((\alpha \leftrightarrow  \beta))=$ \begin{cases}
+	T\ if\ $\overline{v}(\alpha)= \overline{v}(\beta)$\\
+	F \ otherwise
+		
+\end{enumerate}
+
+	 
+
+
+
+
+
+
+
+
+
+
+\newpage
+\subsection{Induction}
+\label{sec:Induction}
+\subsubsection{the induction principle}
+\label{sec:the induction principle}
+
+\subsubsection{strong induction}
+\label{sec:strong induction}
+
+\subsubsection{the well ordering principle}
+\label{sec:the well ordering principle}
+\textbf{Every nonempty set of natural numbers has a smallest element.}
+\\
+
+\begin{math}
+	\forall S \subseteq \mathbb{N}(S \neq \emptyset \rightarrow S
+\end{math}
+ has a smallest element)
+ \\\\
+ \textit{Proof.}	Suppose $S \subset \mathbb{N}$ and S does not have a smallest element.\\
+ We will prove that $\forall n\in \mathbb{N}(n \notin S)$ meaning that $ S=\emptyset$\\\\
+ We will prove this using strong induction.\\
+ Suppose that $n\in\mathbb{N}$ and $\forall k<n(k \notin S)$\\
+ Goal: $n\notin S$
+ \\
+ If $n\in S$ then n would be the smalles element of S since all elements smaller then n are not in S by the induction hypothesis. This is a contradiction to the assumption that S does not have a smalles element.
+ \newpage
+ \section{Relations}
+ \label{sec:Relations}
+ \subsection{functions}
+ \label{sec:functions}
+ 
+\subsubsection{extended/restricted functions}
+\label{sec: extended/restricted functions}
+A restriction of a function $f$ is a new function $f|_{A}$ which is the same function as $f$ its Domain is just a subset of the Domain of f:\\
+$Dom(f)\subseteq Dom(f|_{A})$\\\\
+Sei $f: A \rightarrow B$\\
+Sei $C\subseteq A$\\
+Sei $f|_{C}: C\rightarrow B$, wobei $f|_{C}\subseteq f$
+\\$\rightarrow f|_{C}$ is a restriction of $f$ and $f$ is an extension of $f|_{C}$\\\\
+In an extension of a function the domain is extended, in an restriction of a function the domain is restricted.
+
+\newpage
+\section{Linear algebra}
+\label{sec:linear algebra}
+
+\newpage
+
+\section{Kombinatorik}
+\label{sec:Kombinatorik}
+\subsection{Permutationen}
+\label{sec:Permutationen}
+\subsubsection{Permutationen ohne Wiederholungen}
+\label{sec:Permutationen ohne Wiederholungen}
+
+Sei X eine Menge\\
+\[	
+	P_{x} = \{(a_{1}, ...., a_{|x|}): \{a_{1}, ..., a_{|x|} \}= X\}
+\]
+Die Permutationen $P_{x}$ von X sind also alle Möglichen unterschiedlichen Wege, die Elemente in X anzuordnen
+
+\\Systematische Notierung der Permutationen von $P_{x+1}$:
+
+Es gibt genau x+1 Stellen, an denen das "neue" Element $a_{x+1}$ stehen kann. Für jede dieser Konfigurationen gibt es für die anderen stellen $P_{x}$ Möglichkeiten die anderen Elemente anzuordnen.
+
+$P_{3}$:
+\\(1,2,\textbf{3}	)
+\\(2,1,\textbf{3})
+
+\\(1,\textbf{3},2)
+\\(2,\textbf{3},1)
+
+\\(\textbf{3},1,2)
+\\(\textbf{3},2,1)
+\\\\$P_{4}$:\\
+(1,2,3,4)\ (1,2,4,3)\ (1,4,2,3)\ (4,1,2,3)\\
+(2,1,3,4)\ (2,1,4,3)\ (1,4,2,3)\ (4,1,2,3)\\
+(1,3,2,4)\ (1,3,4,2)\ (1,4,2,3)\ (4,1,2,3)\\
+(2,3,1,4)\ (2,3,4,1)\ (1,4,2,3)\ (4,1,2,3)\\
+(3,1,2,4)\ (3,1,4,2)\ (1,4,2,3)\ (4,1,2,3)\\
+(3,2,1,4)\ (3,2,4,1)\ (1,4,2,3)\ (4,1,2,3)\\
+
+Demnach gilt:
+\[	
+	P_{x+1} = (x+1)\cdot P_{x}
+\]
+Da $P_{0} = 1$, gilt $P_{n} = n! $
+
+\subsubsection{Permutationen mit Wiederholungen}
+\label{sec:Permutationen mit Wiederholungen}
+Sei ein Tuple (1, 1, 2, 3).\\
+Auf wie viele verschiedene Weisen kann dies angeordnet werden?\\
+4! kann es nicht sein, da wenn die einsen vertauscht werden das selbe Tuple dabei herauskommt.
+\\
+ 
+Sei die beiden einsen seien unterschiedliche Objekte $1_{a}$ und $1_{b}$\\
+Die berechnung der Variation ist nun eine Permutation ohne Wiederholung und kann durch 4! berechnet werden. \\
+
+Für jede Variation in der ursprünglichen Variante kommen hier noch die Variationen innerhalb derselben Objekte hinzu, $P_{4}$ muss also durch die Anzahl der Möglichkeiten der Variationen innerhalb der gleichen elemente ($P_{2}$) geteilt werden.\\
+$P_{(1,1,2,3)}=\frac{P_{4}}{P_{2}}	$
+
+
+
+
+\end{document}
