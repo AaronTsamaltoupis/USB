@@ -84,6 +84,9 @@ git remote add origin <url of repository>
 
 deleting remote origin: git remote remove origin
 
+listing all remotes:
+git remote
+git remote -v
 
 
 ##pushing changes from local to remote repository
