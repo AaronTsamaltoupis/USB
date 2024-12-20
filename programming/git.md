@@ -27,8 +27,10 @@ git init
 ##branches
 list current branch:
 git rev-parse --abbrev-ref HEAD
-list all branches:
+list branches:
 git branch
+
+
 ###master branch
  -contains the regular commits
  -master branch should always be working and on point, as this is the code everyone pulls from

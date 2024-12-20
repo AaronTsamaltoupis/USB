@@ -7,6 +7,8 @@
     [.get() method](##get_method)
 [strings](##Strings)
     [printing only parts of the string](###printing parts of the string)
+   [adding variables to strings](###adding variables to strings)
+   [finding specific words in strings](##find() method))
 [lists](##lists)
     [check if list is contained in other list](###check if list is contained in other list)
     [get position of element in list](###get position of element in list)
@@ -18,15 +20,21 @@
 [built in functions](##built in functions)
 [File Input and Output](##File Input and Output)
     [writing text files](###writing files)
-    [reading text files](###reading files)
+    [reading txt files](###reading txt files)
     [appending to text files](###appending to files)
     [complicated folder structures](### complicated folder structures)
     [the os module](###the os module)
     [the glob module](###the glob module)
-    [reading and writing CSV data](###CSV data)
+
+    [csv files](##csv files)
+      [reading csv files](##reading csv files)       
+      [writing csv files](##writing csv files)
+    [pdffiles](##pdffiles)
+
+
 [exeptions](##exeptions)
-[math module](##math_module)
 [packages](##packages)
+   [math module](##math_module)
     [numpy](#numpy)
     [pyplot](##pyplot)
     [matplotlib](##matplotlib)
@@ -37,7 +45,7 @@
      -[Entry](##Entry)        
      -[Button](##Button)        
      -[Label](##Label)        
-    [input boxes](###input boxes)
+     -[input boxes](###input boxes)
 
 ##packages
 installing packages systemwide: 
@@ -182,6 +190,11 @@ lines_piece = line[0:(len(line)-3)]
 f'string{variable}continued string'
 
 
+##find() method
+stringexample  = "this is a string"
+stringexample.find("his") finds first occurrence of  "his"" inside stringexample" and returns index of first character of "his"
+
+
 ##lists
 ###check if list is contained in other list
 list1 = [1,2,3,4,5]
@@ -247,7 +260,19 @@ myOutpuFile = open("hello.txt", "w")
  
 myOutputFile.close()
  this closes the function
- 
+
+
+ opening file without needing to close it:
+
+ with open(filename, "mode") as myFile:
+  -operations on file     
+
+bspw: 
+with open(os.path.join(myPath, "test.txt"), "r") as myfile:
+    for line in myfile.readlines():
+        print(line, end = "")
+
+
  
 opening a file stored somewhere else:
 myInputFile = open(r"C:\path\to\file.txt")
@@ -285,7 +310,7 @@ myOutputFile.close()
 
 
 
-### reading files]
+### reading txt files
 myInputfile = open("hello.txt", "r")
 print myInputfile.readlines()
 myInputfile.close()
@@ -379,8 +404,77 @@ the filtered files can be further specified: "image[0-9][0-9].gif" searches for 
     
    
    
-###CSV data
--csv: comma seperated value
+##csv files
+csv: comma seperated value
+
+the first line of the csv file is the header assigning names to the rows of data, thereby telling what each entry represents
+
+the entries in each line have to appear in the same order to match with the header
+
+csv module
+import csv, makes it easy to read and write csv files
+
+
+##reading csv files
+with open(filename, "r") as myFile:
+ myFileReader = csv.reader(myFile)
+ for rown in myFileReader:
+  print(row)  
+
+to read a csv file the opened file first has to be passed to the csv.reader()
+single rows of data in csv reader are displayed as lists
+
+these list can be unpacked like this:
+
+for headerentry1, headerentry2, ... in myFileReader:
+  print(headerentry1, headerentry2)  
+
+sometimes csv use different delimiters than commas:
+delimiter can be specified when reading file e.g. entries are seperated by tabs:
+myFileReader = csv.reader(openedfile, delimiter = "/t")
+
+skipping rows in the File Reader:
+myFileReader = csv.reader(myfile)
+next(myFileReader)
+skips the next file in the reader
+the reader remembers where it left off
+
+bspw: 
+myFileReader = csv.reader(myfile)
+next(myFileReader)
+for row in myFileReader:
+  print(row)  
+
+      skips the first row (header)
+
+
+##writing csv files
+myFile = open(filepath, "w")
+myFileReader = csv.writer(myFile)
+myFileReader.writerow(["Movie", "Rating"])
+myFileREader.writerow(["Chihiros Reise ins Zauberland", 4])
+
+myFile.close()
+
+write several rows at once:
+rows = [["movie", "rating"], ["chihiros reise ins zauberland", 4], ["the circle", 0]]
+
+myFile = open(filepath, "w")
+myFileReader = csv.writer(myFile)
+myFileReader.writerow(["Movie", "Rating"])
+myFileREader.writerow(["Chihiros Reise ins Zauberland", 4])
+
+myFile.close()
+
+
+##pdffiles
+import pypdf
+
+
+
+
+
+##sql database
 
 
 
