@@ -98,7 +98,7 @@ git push <remote> <branch>
 
 ##fetching and pulling from remotes
 
-git  pull
+git  pull origin master
 
 		
 	
