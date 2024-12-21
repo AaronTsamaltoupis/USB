@@ -34,7 +34,6 @@
       [writing csv files](##writing csv files)
     [pdffiles](##pdffiles)
 
-
 [exeptions](##exeptions)
 [packages](##packages)
    [random](##random)    
@@ -50,6 +49,8 @@
      -[Button](##Button)        
      -[Label](##Label)        
      -[input boxes](###input boxes)
+
+[interacting with the web](##inter acting with the web)
 
 
 
@@ -531,8 +532,51 @@ import pypdf
 general:
 data is stored in a series of tables with unique names
  each column in the tables also is given a unique name (similar to the header giving each row a unique name in csv files)
- each column has to have a unique name for its table
+ each column has to have a unique name for its table (names cannot have spaces, special characters etc)
 
+ Primary key:
+ column in a table used for indexing the table
+ this column has to have guaranteed unique entries for each row bspw using a unique id for each row
+
+relating the information in different tables:
+relational database:
+
+two different tables can be linked by a third table
+
+bspw [linkingnewslettersubscriptions.md](linkingnewslettersubscriptions.md)
+
+
+sql in python
+
+import sqlite3
+connection = sqlite3.connect("test_database.db")
+
+     --sqlite3 is connected to the database file
+
+c = connection.cursor
+     --creates cursor object where methods on the database can be executed
+
+methods:
+a.execute("CREATE TABLE NameofTable(Key1 TEXT, Key2 TEXT, Key3 INT)")
+bspw: 
+a.execute("CREATE TABLE People(FirstName TEXT, Lastname TEXT, Age INT)")
+
+the types of the values of the Keys have to be specified: TEXT, INT
+
+c.execute("INSERT INTO People VALUES ('Angela', 'Merkel', 70)")
+connection.commit()
+    -neccessary to actually save changes to the table
+    -ACHUTUNG: quotation marks around TEXT VALUES have to be 'Angela' not "Angela"
+
+deleting table:
+c.execute("DROP THE TABLE IF IT EXISTS NameofTable")
+
+simplify opening of databases:
+with sqlite3.connect("test_database.db") as connection:
+  c = connection.cursos
+  c.execute(< >)
+
+-changes now don't have to be commited
 
 
 
@@ -692,4 +736,21 @@ def buttonclicked():
  function
 
 button = ttk.Button(root, command = buttonclicked)
+
+
+
+
+
+
+
+
+
+
+
+
+##inter acting with the web
+##webscraping
+
+
+
 
