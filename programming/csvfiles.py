@@ -9,5 +9,9 @@ myPath = "/home/aaron/Desktop/USB/programming/datafiles"
 with open(os.path.join(myPath, "customers-100.csv"), "r") as myfile:
     myFileReader = csv.reader(myfile)
     next(myFileReader)
-    for Index,CustomerId,FirstName,LastName,Company,City,Country,Phone1,Phone2,Email,SubscriptionDate,Website in myFileReader:
-        print(f' {FirstName} {LastName} living in {City}')
+    for row in myFileReader:
+        for Index,CustomerId,FirstName,LastName,Company,City,Country,Phone1,Phone2,Email,SubscriptionDate,Website in row:
+            if FirstName.lower().find("ton")!= -1:
+                row.append([])
+
+            

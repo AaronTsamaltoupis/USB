@@ -1,5 +1,8 @@
 [packages](##packages)
 [virtual environments](##virtual environments)
+
+[loops](##loops)
+
 [functions](##functions)
 [classes](##classes)
     [constructors](##constructors)
@@ -34,6 +37,7 @@
 
 [exeptions](##exeptions)
 [packages](##packages)
+   [random](##random)    
    [math module](##math_module)
     [numpy](#numpy)
     [pyplot](##pyplot)
@@ -47,12 +51,9 @@
      -[Label](##Label)        
      -[input boxes](###input boxes)
 
-##packages
-installing packages systemwide: 
-arch linux: sudo pacman -S python-numpy
 
 
-##virtual environments
+[##virtual](##virtual) environments
 self contained location for isolated environments for python projects
 -manages packages without conflicts
 -packages are installed in an isolated location for one project
@@ -88,6 +89,32 @@ list all packages in environment:
 
 installing packages in venv:
  pip install packagename
+
+
+
+##loops
+break
+
+for i in range(4):
+  if i ==2:
+   break
+  print(i)
+
+print("helo")
+
+when i hits 2 the entire loop is aborted and the code jumps to after the loop
+
+continue
+
+for i in range(4):
+  if i ==2:
+   continue
+  print(i)
+
+print("hello")
+
+when i hits 2 the current run of the loop is aborted but the loop still does the remaining repititions just skipping the rest of the 2 repition (2 is never printed)
+
 
 ##functions
 
@@ -149,6 +176,10 @@ class Person:
 
 
 
+
+##importing modules
+from module import *
+
 ##dictionary
 store information that come as value pairs
 
@@ -166,6 +197,28 @@ no categoryname can have two values, therefore: every categoryname must be uniqu
 
 new categories can be added to the dictionary afterwards:
 directory["newcategory"] = value
+
+delete key:
+ del(dectionary[categoryname])
+
+ listing all keys of a dictionary:
+ dictionary.keys()
+ .keys() returns no list even if it looks like it
+ type(dictionary.keys())
+   returns dict_keys    
+
+for key in dictionary:
+  code
+
+loops through every key in a dictionary
+
+
+check whether variable in dictionary:
+variable in dictionary
+  checks whether "variable" is a key in "dictionary"kk  
+
+
+
 ###get_method
 dictionary.get("categoryname")
     -also returns value assigned to categoryname but returns None if categoryname doesn't exist in the dictionary
@@ -475,6 +528,26 @@ import pypdf
 
 
 ##sql database
+general:
+data is stored in a series of tables with unique names
+ each column in the tables also is given a unique name (similar to the header giving each row a unique name in csv files)
+ each column has to have a unique name for its table
+
+
+
+
+##packages
+installing packages systemwide: 
+arch linux: sudo pacman -S python-numpy
+
+
+##random
+randint(x, y)
+ -returns random integer between x and y, including x and y
+random()
+ -returns random value between 0 and 1
+
+
 
 
 
