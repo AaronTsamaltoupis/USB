@@ -1,27 +1,144 @@
 \documentclass[12pt, letterpaper]{article}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
 \usepackage{amsfonts}
 \usepackage{amsmath}
+\usepackage{lwarp-titlesec}
+\usepackage{graphicx}
+\graphicspath{\media\Aaron\USBStick}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
 
+\title{Mathewettbewerb 2025}
+\author{Aaron Tsamaltoupis}
+
+   \newtheorem{proof}{Proof}[section]
+   \newtheorem{case}{Fall}[Proof]
+   \newtheorem{theorem}{Theorem}[section]
+   \newtheorem{corollary}{Corollary}[theorem]
+   \newtheorem{lemma}[theorem]{Lemma}
 
 \begin{document}
-\section{Lemma1}
-Theorem: Es gibt kein Element, nach dem alle nachfolgenden Elemente gleich sind.
+\maketitle
+\tableofcontents
+\newpage
+\newpage
+\section{Nr. 2}
+\label{sec:Nr. 2}
+
+
+\subsection{Theorem 1}
+\label{sec:Theorem 1}
+\textit{Für alle ganzen Zahlen n größer gleich 2 gilt, dass die letzte von 0 verschiedene Ziffer von n! eine gerade Ziffer ist.} \\\\
+Sei ein beliebiges $a\in \mathbb{Z}^{+}$ und sei die letzte von 0 verschiedene Ziffer von $a!$ gerade.\\
+Die Zahl a kann aufgeteilt werden in den Teil ab der letzten von 0 verschiedene Ziffer $2f$ und dem Rest $l$. Da diese letzte Ziffer gerade ist und nach ihr nur noch Nullen kommen können, muss $a!$ diese Form haben:\\
+$a! = 2l\cdot 10^{k+1}+2f$, wobei $l\in \mathbb{N}\land f \in \mathbb{Z}_{+}\land f>5$\\\
+
+
+
+
+zu beweisen ist also: \[  
+  \forall n \in \mathbb{N}((n>1)\implies \exists l\in \mathbb{N}, f\in \mathbb{Z}^{+}(n! = 2l\cdot 10^{k+1}+2f\cdot 10^{k}, wobei\ \land f<5  ))\\
+\]
+
+Sei der Einfachkeit halber \[  
+  P(n)\ \textnormal{iff}\ \exists l\in\mathbb{N}, f\in\mathbb{Z}^{+}(n! = 2l\cdot 10^{k+1}+2f\cdot 10^{k}, wobei\ \land f<5  ))\\
+
+\]
+
+
+\textbf{Beweis Theorem 1.1} \\
+Sei n eine beliebige ganze Zahl.\\
+n ist entweder ein Vielfaches von 5 oder nicht.
+ \\Theorem 1.1 wird für diese beiden Fälle seperat bewiesen.\\
+
+\\\newpage
+\textbf{Theorem 1.1, Fall 1} \\
+\label{sec:Fall 1}
+n ist ein Vielfaches von 5.\\
+$\exists m \in \mathbb{N}(n! = 5\cdot m)$\\
+
+Es soll bewiesen werden, dass jedes $n! = (5m)!$ in der Form $(5m)! =2^{l}\cdot 5^{k}\cdot r $ aufgeschieben werden kann, wobei r weder durch 5 noch durch 2 teilbar ist und l größer als k ist.\\
+$\forall m \in \mathbb{Z}^{+}(\exists l, k, r \in \mathbb{N}((5m)! = 2^{l}\cdot 5^{k}\cdot r \land $2\hspace{-0.4em}\not\hspace{0.025em}|\,r$
+\land $5\hspace{-0.4em}\not\hspace{0.025em}|\,r$\land l>k
+))$
 \\\\
-Sei es gibt ein solches Element $a_{x}$.
+Es soll mittels vollständiger Induktion bewiesen werden.\\
+Induktionshypothese:\\ sei 
+$\forall m <m_{0}(\exists l, k, r \in \mathbb{N}((5m)! = 2^{l}\cdot 5^{k}\cdot r \land $2\hspace{-0.4em}\not\hspace{0.025em}|\,r$
+\land $5\hspace{-0.4em}\not\hspace{0.025em}|\,r$\land l>k
+))$
+
 \\
-Demnach: $\forall k \in \mathbb{N}(a_{x+k}=\varepsilon$)
+\newpage
+\textbf{Theorem1.1, Fall 2} \\
+
+n ist kein Vielfaches von 5.\\
+$\neg \exists m \in \mathbb{N}(n! = 5\cdot  m)$\\
+Es soll mittels Induktion bewiesen werden, dass für alle $n\in \mathbb{N} \land n>1$ gilt, dass wenn n kein Vielfaches von 5 ist, $P(n))$  wahr ist.\\\\\textbf{Base case:} \\
+$\neg \exists m \in \mathbb{N}(2! = 5m)$\\
+$\implies 2! \neq 5m$\\
+$2! = 2 =0\cdot 10^{1} +2\cdot 1\cdot 10^{0}$\\
+$\implies P(2)$\\
+\\\textbf{Induction step}\\
+sei $(\neg \exists m\in \mathbb{N}(n! = 5m) \implies P(n))$(Induktionshypothese)\\
+
+P(n) kann hier trotzdem in für alle Fälle als gegeben hingenommen werden, da selbst wenn $n! = 5m$ aus dem vorherigen Beweis für Theorem1.1, Fall1 hervorgeht, dass P(n) wahr ist.\\
+
+P(n) ist hier trotzdem wahr für jedes beliebige $n>1$.
+Sollte n kein Vielfaches von 5 sein, garantiert dies die Induktionshypothese. Ist n kein Vielfaches von 5 garantiert das der Beweis in \hyperref[sec:Fall 1]{Fall 1}
+
+zu beweisen: $(n+1)\neq 5m \implies P(n+1)$\\
+
+sei $\neg \exists m \in \mathbb{N}(5m =n+1)$\\
+
+$n! = l\cdot 10^{k+1}+2f\cdot 10^{k}, f<5$ (aufgrund der Induktionshypothese, bzw Fall 1)\\\\
+$(n+1)! = (l\cdot 10^{k+1}+2f\cdot 10^{k})\cdot (n+1)$\\
+$= (n+1)\cdot l\cdot 10^{k+1}+2f(n+1)\cdot 10^{k}$\\\\
+$(n+1)$ und $f$ sind beide keine Vielfache von 5, nach \hyperref[sec:Lemma1]{Lemma1} kann daher auch $2(n+1)\cdot f$ kein Vielfaches von 5 oder 10 sein.\\
+$\exists m\in\mathbb{N}, f_{0}\in\mathbb{Z}^{+}(f_{0}<5\land (n+1) = 10m + 2f_{0})
+$\\
+$(n+1)! = l(n+1)\cdot 10^{k+1}+(10m+2f_{0})\cdot 10^{k}\\
+(n+1)!=10^{k+1}((n+1)\cdot l+m)+10^{k}\cdot 2f_{0}\\
+(n+1)!=10^{k+1}l_{0}+10^{k}\cdot 2f_{0}$, wobei $f_{0} < 5$
+\\
+$\implies P(n+1)$
+
+
+
+
+
+
 \\\\
-$a_{x+1} = \varepsilon$\\
-\\Demnach: \[  
-  (x+1)! = l\cdot 10^{k+1} + 10^{k}\cdot \varepsilon\\
-\]
-\[  
-  
-  (x+2)! = (x+1)\cdot l\cdot 10^{k}+(x+1)\cdot 10^{k}\cdot \varepsilon\\
-  (x+1)\cdot l\cdot 10^{k}= l_{2}\cdot 10^{m+1}\\
-  (x+1)\cdot 10^{k}\cdot \varepsilon = 10^{m}\cdot \varepsilon\\
 
-\]
 
+
+
+
+
+
+Es ist damit bewiesen, dass\\ $(\neg \exists m\in \mathbb{N}(n! = 5m) \implies P(n)) \implies(\neg \exists m\in\mathbb{N}((n+1) = 5m) \implies P(n+1))$\\
+
+Dadurch ist für alle $n>2$ bewiesen, dass $\neg \exists m\in\mathbb{N}(n! = 5m)\implies P(n)$ 
+
+
+
+\\\\
+
+
+
+
+\newpage
+\section{Lemmas}
+\label{sec:Lemmas}
+
+\subsection{Lemma1}
+\label{sec:Lemma1}
 
 \end{document}
