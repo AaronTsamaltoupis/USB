@@ -1,7 +1,7 @@
 import sys
 import os
 from math import factorial
-path = r"C:\Users\User\Desktop\USBStick\Mathematik\prjekte data"
+path = r"C:\Users\S"
 sys.set_int_max_str_digits(0)
 
 
@@ -22,8 +22,9 @@ folge = []
 
 #print(folge)
 message ="" 
-for n in range(2, 10000):
-    message += str(factorial(n))
+for n in range(1, 100):
+    message += f'{5*n-1}! '
+    message += str(factorial(5*n-1))
     message += "\n"
 #    print(factorial(n))
 
