@@ -3,6 +3,8 @@
 
 
 moving_files
+mv currentlocation/file.txt wantedlocation
+
 
 
 packages
