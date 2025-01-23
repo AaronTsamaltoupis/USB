@@ -85,3 +85,23 @@ this also enables auto refresh
 
 
 
+
+#Database programming
+
+SQL
+
+SQL commands: SELECT, UPDATE, INSERT, DELETE
+
+SELECT: retrieves data from database
+UPDATE: updates data from database
+INSERT: inserts data into database
+DELETE: deletes data from database
+
+SELECT:
+selects data from database
+
+
+
+
+
+

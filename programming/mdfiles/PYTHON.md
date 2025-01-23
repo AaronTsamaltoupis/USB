@@ -53,7 +53,6 @@
 [interacting with the web](##inter acting with the web)
 
 
-
 [##virtual](##virtual) environments
 self contained location for isolated environments for python projects
 -manages packages without conflicts
