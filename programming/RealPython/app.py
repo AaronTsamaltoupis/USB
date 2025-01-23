@@ -8,7 +8,7 @@ app.config["DEBUG"]=True
 
 def index(name):
     if name.lower() == "michael":
-        return('hello {}'.format(name), 200)
+        return(f'hello {name} old mf', 200)
     else:
         return("not found", 404)
 

@@ -1,5 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1735911263.9513 "abiturpowi.tex" "abiturpowi.pdf" "abiturpowi" 1735911264.4844 2
+["pdflatex"] 1736497835.72793 "abiturpowi.tex" "abiturpowi.pdf" "abiturpowi" 1736497836.28592 2
+  "/home/aaron/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk" 1734338474.66419 14040 d17c518be084e5a4293e89c54e73e511 ""
+  "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1727349926 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1727349926 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1727349926 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1727349926 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -21,6 +23,7 @@
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1727349926 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1727349926 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1727349926 32362 179c33bbf43f19adbb3825bb4e36e57a ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1727349926 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1727349926 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1727349926 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1727349926 40635 c40361e206be584d448876bba8a64a3b ""
@@ -77,10 +80,10 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1727349926 41588 b43d3e860a4f94167ee1e725ff526a72 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1734284351.89897 27758 38728abbce47239bb9c148cdc8c9e373 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1734285017 7113011 d4779e1870377f7445b63c85f255bda8 ""
-  "abiturpowi.aux" 1735911264.41402 2135 a64579cf8214b61ce59426800c5119d4 "pdflatex"
-  "abiturpowi.out" 1735911264.41735 1014 b82da90f26d92745c4352b91667b74b4 "pdflatex"
-  "abiturpowi.tex" 1735911262.90735 8619 d03bd27d7041a76c1029b4617ae91089 ""
-  "abiturpowi.toc" 1735911264.41735 834 e4a35175e3be22ba52adec052b1ac2ea "pdflatex"
+  "abiturpowi.aux" 1736497836.20883 3057 be6b718fb198ae747bf35ca03ea7b553 "pdflatex"
+  "abiturpowi.out" 1736497836.20883 1822 aae6fb24a7358655ef52c678ed386baa "pdflatex"
+  "abiturpowi.tex" 1736253101.40317 15781 b7bc47c3814683f91eb933ea15025fa7 ""
+  "abiturpowi.toc" 1736497836.20883 1138 0a8bef09213f5318ac89525d53a370d7 "pdflatex"
   (generated)
   "abiturpowi.aux"
   "abiturpowi.log"

@@ -1,0 +1,191 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{lwarp-titlesec}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\graphicspath{\media\Aaron\USBStick}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+\title{Mathematikwettbewerb 2025}
+\author{Aaron Tsamaltoupis}
+
+   \newtheorem{theorem}{Theorem}[section]
+   \newtheorem{corollary}{Corollary}[theorem]
+   \newtheorem{lemma}[theorem]{Lemma}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+\newpage
+\section{Nr 1}
+\label{sec:Nr 1}
+
+\newpage
+\section{Nr 2}
+\label{sec:Nr 2}
+Für jede ganze Zahl $n\ge 2$ betrachten wir in der Dezimaldarstellung von $n!$ die letzte von Null verschiedene Ziffer.\\
+Bestimme alle Ziffern, die mindestens einmal in dieser Folge vorkommen, und zeige, dass jede dieser Ziffern sogar unendlich oft vorkommt.\\\\
+
+\end{center}
+Sei eine funktion $f: \mathbb{Z^{+}}\rightarrow [1,2,3,4,5,6,7,8,9]$ definiert, sodass $f(n)$ die letzte von Null verschiedene Ziffer von n ist.
+\begin{center}
+  
+$f(n) = \varepsilon$ \textit{iff}\varepsilon \in \{1,2,3,4,5,6,7,8,9\} \land   $\exists k, l(n = 10^{k}\cdot (10\cdot l+\varepsilon))$\\
+\end{center}
+Sei B die Menge aller Folgen b, die folgendermaßen definiert werden können: 
+\begin{center}
+  $b^{k}_{1} = k+1$ und für alle $n\in \mathbb{Z_{+}}$ gilt $b^{k}_{n}=(k+1)\cdot (k+2)...(k+n-1)\cdot (k+n)$\\
+  $\implies b^{k}_{n} = \frac{(k+n)!}{k!} $
+\end{center}
+Alle Folgen $b\in B$ haben also folgende Elemente:
+\begin{center}
+  $b_{1} = k\\
+  b_{2} = k\cdot (k+1)\\
+  b_{3} = k\cdot (k+1) \cdot  (k+2)\\
+  b_{4} = ...
+
+\end{center}
+Sei eine weitere Menge F, die Folgen beinhaltet, folgerndermaßen definiert:
+\begin{center}
+  $F = \{Fb^{k}:\exists b^{k}\in B(Fb^{k}_{n} = f(b^{k}_{n}))\}$
+\end{center}
+Das nte Element jeder Folge $Fb_{0}$ in F ist also die letzte von Null verschiedene Ziffer des nten Elementes einer Folge $b_{0}\in B$\\
+
+Sei die Folge aus der Aufgabenstellung, die mit (2,6,4,2,2,..) beginnt die Folge $Fa = (2,6,4,2,2,...)$
+\\Diese Folge kann folgendermaßen beschrieben werden:\\
+$Fa_{n} = f(a_{n})$, wobei $a_{n}$ das nte Element einer weiteren Folge a ist, wobei a = (2!, 3!, 4!, ...)
+
+
+
+
+Auch diese Folge a ist ein Element der Menge B:
+\begin{center}
+  \begin{math}
+    a_{1}=2\\
+    a_{2} = 2\cdot 3\\
+    a_{3} = 2\cdot 3\cdot 4\\
+    ...
+  \end{math}
+\end{center}
+Da a also ein Element von B ist und $Fa_{n} = f(a_{n})$ ist Fa auch ein Element von F.
+
+
+\begin{lemma}
+  Es soll bewiesen werden, dass für alle Folgen $b\in B$ gilt, dass sobald es ein Element $b_{h_{0}}$ dieser Folge gibt, für das gilt \begin{center}
+  $\exists p_{0},q_{0},m_{0}\in \mathbb{Z+}(2\nmid m_{0}\land 5\nmid m_{0} \land b_{h_{0}} = 10^{p_{0}}\cdot 2^{q_{0}}\cdot m_{0} )$
+\end{center} 
+,dann gilt für alle folgenden Elemente h dieser Folge b, dass es auch für sie ein $p, q$ und $m \in \mathbb{Z^{+}}$ gibt, wobei $(2\nmid m \land  5\nmid m \land h = 10^{p}\cdot 2^{q}\cdot m)$
+\\\\
+Sei
+
+\end{lemma}
+\begin{proof}
+  
+\end{proof}
+\begin{lemma}
+ Es soll nun bewiesen werden, dass es für jede Folge $b\in B$ein solches Element $b_{h_{0}}$ gibt. 
+\end{lemma}
+\begin{proof}
+  
+\end{proof}
+\begin{lemma}
+  Es soll bewiesen werden, dass wenn ein $n\in \mathbb{Z^{+}}$ in der Form $n= 10^{p}\cdot 2^{q}\cdot m$ notiert werden kann, wobei m weder durch 2 noch durch 5 teilbar ist, $f(n)$ eine gerade Ziffer ist.\\
+
+  Zu beweisen:
+\begin{center}
+\begin{math}
+  \forall n\in\mathbb{Z^{+}}(\exists(p,q,m)(2\nmid m\land 5\nmid m \land n = 10^{p}\cdot 2^{q}\cdot m)\implies f(n)\in [2,4,6,8])
+\end{math} 
+\end{center}
+\end{lemma}
+\begin{proof}
+  
+\end{proof}
+
+
+Nach Lemma 2.1 gilt also, dass es ein Element $a_{h_{0}}$ der Folge a gibt, wonach alle nachfolgenden Elemente $a_{h}$ der Folge a in der Form $10^{q}\cdot 2^{p}\cdot m$ geschrieben werden können, wobei m weder durch 5 oder durch 2 teilbar sind.\\
+Direkt das erste Element von a $a_{1} = 2!$ kann in dieser Form geschrieben werden: $2 = 10^{0}\cdot 2^{1}\cdot 1$, demnach können alle Elemente von a in dieser Form geschreiben werden.\\\\
+Nach Lemma 2.3 gilt dann, dass $f(a_{k})$ für alle Elemente $a_{k}$ von $a$ eine gerade Ziffer ist.\\
+Die Ausgangsfolge der Aufgabenstellung $Fa= (2,6,4,2,2,...)$ besteht also nur aus geraden Ziffern.\\\textbf{Keine andere Zahl außer 2,4,6, oder 8 kommt also in der Ausgangsfolge $Fa$ vor.} 
+\begin{lemma}
+  Es soll bewiesen werden, dass in jeder Folge $Fb \in F$ immer mindestens zwei verschiedene Elemente undendlich oft vorkommen.
+\end{lemma}
+\begin{proof}
+  Es soll durch Widerspruch bewiesen werden. Sei also ein Element $Fb_{x_{0}}$ von Fb, ab dem alle folgenden Elemente $Fb_{x}$ nur noch den Wert $\varepsilon_{0}$ haben.\\
+  $Fb_{x_{0}} = f(b_{x_{0}})$, wobei $b_{1} = k$\\
+  Es gibt ein $b_{h+1}$ , sodass $h>x_{0}$ und $h+k$ kein Vielfaches von 5 ist. \\\\
+    \begin{math}
+      b_{h+1} =  \frac{(k+h)!}{(k-1)!} \\\\
+      =\frac{(k+h-1)!}{(k-1)!}\cdot (k+h) \\\\
+      =b_{h}\cdot (k+h)
+    \end{math}\\\\
+  $b_{h}$ muss von der Form $b_{h} = 10^{n}\cdot (10l+\varepsilon_{0})$ sein, da ansonsten $f(b_{h}) \neq \varepsilon_{0}$ und demnach $Fb_{h} \neq \varepsilon_{0}$\\\\
+  \begin{math}
+    \implies b_{h+1} = 10^{n_{1}}\cdot (10l_{1}+\varepsilon_{0}) \cdot (k+h)\\\\
+    \implies 
+  \end{math}
+
+  \end{proof}
+  \begin{lemma}
+   Es soll bewiesen werden, dass für alle $x_{1},x_{2}\in \mathbb{N}$ gilt, wenn $f(x_{1})=\varepsilon_{1}$ und $f(x_{2}) = \varepsilon_{2}$ dann gilt $f(x_{1}\cdot x_{2}) = f(\varepsilon_{1}\cdot \varepsilon_{2})$
+  \begin{proof}
+   $f(x_{1}) = \varepsilon_{1}\implies x_{1} =10^{n_{1}}\cdot (10\cdot l_{1} + \varepsilon_{1})  $\\
+   $f(x_{2}) = \varepsilon_{2}\implies x_{2} =10^{n_{2}}\cdot (10\cdot l_{2} + \varepsilon_{2})  $\\
+   $x_{1}\cdot x_{2} = 10^{n_{1}+n_{2}}\cdot ()$
+  \end{proof}
+  \end{lemma}
+  \begin{lemma}
+    Es soll bewiesen werden, dass jede Folge $b\in B$ mindestens ein Element $b_{n}$ hat, sodass $f(b_{n}) = 6$. Es soll also bewiesen werden, dass in jeder Folge $Fb \in F$ mindestens einmal die Zahl 6 vorkommt. 
+  \end{lemma}
+  \begin{proof}
+    Sei $b^{k}$ eine beliebige Folge aus B, sodass $b^{k}_{n}=k\cdot (k+1) ... (k+n-1)\cdot (k+n)$. Sei $Fb^{k}$ die Folge aus F, sodass $\forall n \in\mathbb{Z_{+}}(Fb^{k}_{n} =f(b^{k}_{n}))$ Die Folge Fb enthält entweder die Zahl 6, oder nicht.\\
+  
+    Wenn sie die Zahl 6 enthält ist nichts mehr zu beweisen.\\
+    Sei die Folge Fb enthält die Zahl 6 nicht.\\
+    Nach Lemma 2.4 enthält die Folge Fb mindestens zwei unterschiedliche Elemente, die unendlich vorkommen. Nach Lemma 2.1, 2.2, und 2.3 gibt es ein Element $b_{h_{0}}$, ab für alle Folgenden Elemente gilt, dass $f(b_{h_{0}}) \in \{2,4,6,8\}$. Die beiden Elemente, die definitiv unendlich oft vorkommen, müssen also beide gerade Ziffern sein. Unter diesen Voraussetzungen gibt es für dieses Paar an unterschiedlichen Elementen von Fb drei Möglichkeiten:\\
+    Fall 1: Fb enthält unendlich oft die Zahlen 4 und 8\\
+    Fall 2: Fb enthält unendlich oft die Zahlen 2 und 4\\
+    Fall 3: Fb enthält unendlich oft die Zahlen 2 und 8 \\
+\\Fall 1: Sei ein Element $Fb_{n_{0}}$ von $Fb$, sodass $Fb_{n_{0}} = 4$\\
+Sei ein folgendes Element $Fb_{n_{0}+n_{1}}$ der Folge $Fb$, sodass $Fb_{n_{0}+n_{1}} = 2$\\
+\begin{math}
+Fb_{n_{0}} = f(b_{n_{0}}), Fb_{n_{0} +n_{1}} = f(b_{n_{0}+n_{1}})\\\\
+b^{k}_{n_{1}} = b^{k}_{n_{0}} \cdot (k+n_{0}+1)\cdot (k+n_{0}+2)\cdot ...\cdot (k+n_{0}+n_{1})\\\\
+b^{k}_{n_{0}+n_{1}} =b^{k}_{n_{0}} \cdot b^{k+n_{0}}_{n_{0}+n_{1}} \\\\
+f(b^{k}_{n_{0}+n_{1}})=f(b^{k}_{n_{0}}\cdot  b^{k+n_{0}}_{n_{0}+n_{1}})} =2\\
+
+\\\\
+
+\end{math}
+
+
+\\\\ 
+    Es gibt 
+    Fall 2: Fb enthält unendlich oft die Zahlen 2 und 4\\
+    Fall 3: Fb enthält unendlich oft die Zahlen 4 und 8
+  \end{proof}
+\begin{theorem}
+  Es soll bewiesen werden, dass es für jedes Element $Fa_{k}$ von $Fa$ ein nachfolgendes Element von $Fa_{k+n}$ gibt, sodass $Fa_{k}=Fa_{k+n}$.
+\end{theorem}
+
+  \begin{proof}
+Sei ein beliebiges Element $Fa_{k}$.
+  \end{proof}
+ Jedes Element, das einmal in $Fa$ auftritt, tritt also garantiert unendlich oft auf, da es kein letztes Element $Fa_{k}$ eines Wertes geben kann, da es immer ein $Fa_{k+n}$ gibt, das den selben Wert hat. 
+
+ \\
+
+ 
+  \end{document} 

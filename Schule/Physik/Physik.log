@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.12.15)  18 DEC 2024 16:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.12.15)  20 JAN 2025 17:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -248,7 +248,7 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \Gin@req@height=\dimen154
 \Gin@req@width=\dimen155
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 17.
+Package hyperref Info: Option `colorlinks' set `true' on input line 16.
  (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count286
@@ -256,24 +256,24 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 ) (./Physik.aux)
 \openout1 = `Physik.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
  (/usr/share/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
  (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -281,7 +281,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
  (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 23.
+Package hyperref Info: Link coloring ON on input line 21.
  (./Physik.out) (./Physik.out)
 \@outlinefile=\write3
 \openout3 = `Physik.out'.
@@ -307,139 +307,311 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./Physik.toc)
+) [2] (./Physik.toc [3])
 \tf@toc=\write4
 \openout4 = `Physik.toc'.
 
- [2]
+ [4]
 
-./Physik.tex:28: LaTeX Error: Can be used only in preamble.
+./Physik.tex:27: LaTeX Error: Can be used only in preamble.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28 \begin{document}
+l.27 \begin{document}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--45
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 42--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--45
+Overfull \hbox (3.83627pt too wide) in paragraph at lines 47--47
+[]\OT1/cmr/bx/n/14.4 Magnetfeld eines lan-gen, strom-durch-flosse-nen Leit-
+ []
+
+<graphics/PhysikQ1.png, id=243, 1822.81pt x 731.73375pt>
+File: graphics/PhysikQ1.png Graphic file (type png)
+<use graphics/PhysikQ1.png>
+Package pdftex.def Info: graphics/PhysikQ1.png  used on input line 50.
+(pdftex.def)             Requested size: 455.24408pt x 182.74318pt.
+
+Overfull \hbox (65.24408pt too wide) in paragraph at lines 50--50
+ [] 
+ []
+
+<graphics/Stromdurchflossenespuke.png, id=244, 1781.65625pt x 1053.9375pt>
+File: graphics/Stromdurchflossenespuke.png Graphic file (type png)
+<use graphics/Stromdurchflossenespuke.png>
+Package pdftex.def Info: graphics/Stromdurchflossenespuke.png  used on input line 56.
+(pdftex.def)             Requested size: 455.24408pt x 269.28925pt.
+
+Overfull \hbox (65.24408pt too wide) in paragraph at lines 56--57
+ [] 
+ []
+
+[6 <./graphics/PhysikQ1.png>] [7 <./graphics/Stromdurchflossenespuke.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 62.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 62.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 62.
+
+<graphics/Lorentizkraft.png, id=257, 1646.15pt x 758.835pt>
+File: graphics/Lorentizkraft.png Graphic file (type png)
+<use graphics/Lorentizkraft.png>
+Package pdftex.def Info: graphics/Lorentizkraft.png  used on input line 66.
+(pdftex.def)             Requested size: 341.43306pt x 157.39165pt.
+
+./Physik.tex:68: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 E
+      rfolgt die Elektronenbewegung sekrecht zu den Magnetfeldlinien, wirkt ...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--67
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 82--84
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--84
+Overfull \hbox (10.12015pt too wide) in paragraph at lines 68--73
+\OT1/cmr/m/n/12 Die Lorentzkraft wirkt auf die sich im Leiter be-we-gen-den \OT1/cmr/m/it/12 Elek-tro-nen \OT1/cmr/m/n/12 . Dadurch,
+ []
+
+[8 <./graphics/Lorentizkraft.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 76--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--108
+Overfull \hbox (17.23682pt too wide) in paragraph at lines 76--84
+\OT1/cmr/bx/n/12 Definition: \OT1/cmr/m/n/12 Die mag-netis-che Fluss-dichte B ist der Quo-tient aus der Lorentzkraft
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--92
 
  []
 
 
-Overfull \hbox (3.94547pt too wide) in paragraph at lines 91--108
+Underfull \hbox (badness 10000) in paragraph at lines 86--92
+
+ []
+
+
+./Physik.tex:93: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 \\\\
+         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Physik.tex:94: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94 D
+      er Quotient $\mu_{0}= \frac{B}{I\cdot \frac{n}{l}  } $ ist die \textit...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--98
+
+ []
+
+[9]
+<graphics/Bewegteladungsträgermagnetfeld.png, id=275, 1404.24625pt x 654.445pt>
+File: graphics/Bewegteladungsträgermagnetfeld.png Graphic file (type png)
+<use graphics/Bewegteladungsträgermagnetfeld.png>
+Package pdftex.def Info: graphics/Bewegteladungsträgermagnetfeld.png  used on input line 112.
+(pdftex.def)             Requested size: 227.62204pt x 106.08142pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+[10 <./graphics/Bewegteladungsträgermagnetfeld.png>]
+Runaway argument?
+{sec:{Induktion} 
+./Physik.tex:132: Paragraph ended before \label was complete.
+<to be read again> 
+                   \par 
+l.132 
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+[11] [12]
+Runaway argument?
+{sec:{Eingenschaften von Wellen} \subsubsection {Interferenz} \label \ETC.
+./Physik.tex:174: Paragraph ended before \label was complete.
+<to be read again> 
+                   \par 
+l.174 
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 187--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--212
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 227--229
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--229
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--253
+
+ []
+
+
+Overfull \hbox (3.94547pt too wide) in paragraph at lines 236--253
 \OT1/cmr/m/n/12 dass sie den Git-ter-ver-band ger-ade ver-lassen koen-nen. Ist die Fre-quenz groesser
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--108
+Underfull \hbox (badness 10000) in paragraph at lines 236--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--108
+Underfull \hbox (badness 10000) in paragraph at lines 236--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--108
+Underfull \hbox (badness 10000) in paragraph at lines 236--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--108
+Underfull \hbox (badness 10000) in paragraph at lines 236--253
 
  []
 
-[4]
-./Physik.tex:110: Missing $ inserted.
+[15]
+./Physik.tex:255: Missing $ inserted.
 <inserted text> 
                 $
-l.110 $W_
+l.255 $W_
          {Licht} = h\cdot f$\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 121--127
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--272
 
  []
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 131.
+LaTeX Warning: Command \" invalid in math mode on input line 276.
 
-./Physik.tex:131: Please use \mathaccent for accents in math mode.
+./Physik.tex:276: Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \ifmmode \els...
-l.131   Lichtintensitä
+l.276   Lichtintensitä
                        t = \frac{auftreffende Lichtenergie}{Zeit*Fläche}
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 131.
+LaTeX Warning: Command \" invalid in math mode on input line 276.
 
-./Physik.tex:131: Please use \mathaccent for accents in math mode.
+./Physik.tex:276: Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \ifmmode \els...
-l.131 ...{auftreffende Lichtenergie}{Zeit*Fläche}
+l.276 ...{auftreffende Lichtenergie}{Zeit*Fläche}
                                                   
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
-./Physik.tex:133: Missing $ inserted.
+./Physik.tex:278: Missing $ inserted.
 <inserted text> 
                 $
-l.133 
+l.278 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Physik.tex:133: Missing } inserted.
+./Physik.tex:278: Missing } inserted.
 <inserted text> 
                 }
-l.133 
+l.278 
       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -448,14 +620,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--133
+Underfull \hbox (badness 10000) in paragraph at lines 273--278
 
  []
 
-./Physik.tex:133: Extra }, or forgotten \endgroup.
+./Physik.tex:278: Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.133 
+l.278 
       
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -464,26 +636,26 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-./Physik.tex:134: LaTeX Error: Bad math environment delimiter.
+./Physik.tex:279: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.134 \end{math}
+l.279 \end{math}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--142
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 283--287
 
  []
 
-[6] [7]
-./Physik.tex:151: Extra }, or forgotten $.
-l.151 ...}+2\cdot m_{n}\approx 6,695\cdot 10^{27}}
+[17]
+./Physik.tex:296: Extra }, or forgotten $.
+l.296 ...}+2\cdot m_{n}\approx 6,695\cdot 10^{27}}
                                                   $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -492,22 +664,22 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--157
+Underfull \hbox (badness 10000) in paragraph at lines 295--302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--157
+Underfull \hbox (badness 10000) in paragraph at lines 295--302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--157
+Underfull \hbox (badness 10000) in paragraph at lines 295--302
 
  []
 
-./Physik.tex:164: Extra }, or forgotten $.
-l.164 ...ot  c = \frac{h\cdot f}{ c^{2}} \cdot c}}
+./Physik.tex:309: Extra }, or forgotten $.
+l.309 ...ot  c = \frac{h\cdot f}{ c^{2}} \cdot c}}
                                                   $\\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -515,201 +687,837 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Physik.tex:165: Missing $ inserted.
+./Physik.tex:310: Missing $ inserted.
 <inserted text> 
                 $
-l.165 P_
+l.310 P_
         {Photon = \frac{h\cdot f}{c} =\frac{h}{\lambda} }
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Physik.tex:166: Missing $ inserted.
+./Physik.tex:311: Missing $ inserted.
 <inserted text> 
                 $
-l.166 
+l.311 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[8]
-Overfull \hbox (39.215pt too wide) in paragraph at lines 173--174
+[18]
+Overfull \hbox (39.215pt too wide) in paragraph at lines 318--319
 []\OT1/cmr/m/n/12 Die Aus-bre-itung eines je-den Teilchens er-folgt als Welle, deren Wellenl^^?angedurch
  []
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 188.
+LaTeX Warning: Command \" invalid in math mode on input line 333.
 
-./Physik.tex:188: Please use \mathaccent for accents in math mode.
+./Physik.tex:333: Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \ifmmode \els...
-l.188 ...  = 2,24 \cdot 10^{-11}m = 22,4 pm\ (Grö
+l.333 ...  = 2,24 \cdot 10^{-11}m = 22,4 pm\ (Grö
                                                   ßenbereich\ Gammastrahlen)
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
 
-LaTeX Warning: Command \ss invalid in math mode on input line 188.
+LaTeX Warning: Command \ss invalid in math mode on input line 333.
 
 
-Overfull \hbox (51.87758pt too wide) in paragraph at lines 179--190
+Overfull \hbox (51.87758pt too wide) in paragraph at lines 324--335
 \OML/cmm/m/it/12 ^^U \OT1/cmr/m/n/12 = [] = [] = 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 24 \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 10[]\OML/cmm/m/it/12 m \OT1/cmr/m/n/12 = 22\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 4\OML/cmm/m/it/12 pm \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 Gr[]\OT1/cmr/m/n/12 ^^Y\OML/cmm/m/it/12 enbereich Gammastrahlen\OT1/cmr/m/n/12 )$ 
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 192--198
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 337--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--198
+Underfull \hbox (badness 10000) in paragraph at lines 337--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--198
+Underfull \hbox (badness 10000) in paragraph at lines 337--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--214
+Underfull \hbox (badness 10000) in paragraph at lines 346--359
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--214
+Underfull \hbox (badness 10000) in paragraph at lines 346--359
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--214
+Underfull \hbox (badness 10000) in paragraph at lines 346--359
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--214
+Underfull \hbox (badness 10000) in paragraph at lines 346--359
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--214
+Underfull \hbox (badness 10000) in paragraph at lines 346--359
 
  []
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 215--224
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--224
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 360--369
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--224
+Underfull \hbox (badness 10000) in paragraph at lines 360--369
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--228
+Underfull \hbox (badness 10000) in paragraph at lines 360--369
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--233
+Underfull \hbox (badness 10000) in paragraph at lines 371--373
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--233
+Underfull \hbox (badness 10000) in paragraph at lines 374--378
 
  []
 
 
-Overfull \hbox (3.35588pt too wide) in paragraph at lines 229--233
+Underfull \hbox (badness 10000) in paragraph at lines 374--378
+
+ []
+
+
+Overfull \hbox (3.35588pt too wide) in paragraph at lines 374--378
 \OT1/cmr/m/it/12 Broglie-Wellenlaenge von 22,4pm (siehe oben: [][]Wellen-laenge De Broglie[][]) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--241
+Underfull \hbox (badness 10000) in paragraph at lines 381--386
 
  []
 
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 249--252
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 394--397
 
  []
 
 
-Overfull \hbox (18.19994pt too wide) in paragraph at lines 253--254
+Overfull \hbox (18.19994pt too wide) in paragraph at lines 398--399
 []\OT1/cmr/m/n/12 Bei einer gerin-gen An-zahl an Quan-tenob-jek-ten en-ste-hen Aufter-ef-fverteilungn,
  []
 
 
-Overfull \hbox (21.23735pt too wide) in paragraph at lines 269--271
+Overfull \hbox (21.23735pt too wide) in paragraph at lines 414--416
 \OT1/cmr/m/n/12 ichen Ver-such-sergeb-nisses mehr als eine klas-sisch denkbare M^^?oglichkeit
  []
 
-[12]
-Overfull \hbox (3.8778pt too wide) in paragraph at lines 282--283
+[22]
+Overfull \hbox (3.8778pt too wide) in paragraph at lines 427--428
 \OT1/cmr/m/n/12 klas-sisch denkbaren M^^?oglichkeiten": man wei^^Y durch eine geeignete
  []
 
 
-Overfull \hbox (6.61945pt too wide) in paragraph at lines 282--283
+Overfull \hbox (6.61945pt too wide) in paragraph at lines 427--428
 \OT1/cmr/m/n/12 Vor-rich-tung, ob das Quan-tenob-jekt durch Spalt1 oder Spalt2 gegan-
  []
 
-[13]
-Overfull \hbox (0.8904pt too wide) in paragraph at lines 296--297
+[23]
+Overfull \hbox (0.8904pt too wide) in paragraph at lines 441--442
 []\OT1/cmr/m/n/12 eine Gl^^?uhlape oder eine Kerzen-flamme senden ein kon-tinuier-liches Spek-
  []
 
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
 
  []
 
-<graphics/IMG_0919.PNG, id=196, 1350.04375pt x 563.10374pt>
+<graphics/IMG_0919.PNG, id=369, 1350.04375pt x 563.10374pt>
 File: graphics/IMG_0919.PNG Graphic file (type png)
 <use graphics/IMG_0919.PNG>
-Package pdftex.def Info: graphics/IMG_0919.PNG  used on input line 307.
+Package pdftex.def Info: graphics/IMG_0919.PNG  used on input line 452.
 (pdftex.def)             Requested size: 227.62204pt x 94.93588pt.
-<graphics/IMG_0920.PNG, id=197, 1336.995pt x 492.84125pt>
+<graphics/IMG_0920.PNG, id=370, 1336.995pt x 492.84125pt>
 File: graphics/IMG_0920.PNG Graphic file (type png)
 <use graphics/IMG_0920.PNG>
-Package pdftex.def Info: graphics/IMG_0920.PNG  used on input line 311.
+Package pdftex.def Info: graphics/IMG_0920.PNG  used on input line 456.
 (pdftex.def)             Requested size: 227.62204pt x 83.90222pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--318
+Underfull \hbox (badness 10000) in paragraph at lines 460--463
 
  []
 
-[15 <./graphics/IMG_0919.PNG> <./graphics/IMG_0920.PNG>] [16] (./Physik.aux)
+[25 <./graphics/IMG_0919.PNG> <./graphics/IMG_0920.PNG>] [26]
+Overfull \hbox (19.70547pt too wide) in paragraph at lines 497--502
+\OT1/cmr/m/n/12 tro-mag-netis-che Felden-ergie umge-wan-delt wird, m^^?usste das den Kern umkreisende
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--505
+
+ []
+
+
+./Physik.tex:510: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.510 ...h}{2\pi}  , n\in\mathbb{N} |\cdot 2\pi \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Physik.tex:510: Missing $ inserted.
+<inserted text> 
+                $
+l.510 ...h}{2\pi}  , n\in\mathbb{N} |\cdot 2\pi \\
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Physik.tex:510: Missing } inserted.
+<inserted text> 
+                }
+l.510 ...h}{2\pi}  , n\in\mathbb{N} |\cdot 2\pi \\
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Physik.tex:510: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.510 ...h}{2\pi}  , n\in\mathbb{N} |\cdot 2\pi \\
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Physik.tex:511: Missing $ inserted.
+<inserted text> 
+                $
+l.511   2\pi
+             r\cdot m\cdot v = n\cdot h \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./Physik.tex:511: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.511   2\pi r\cdot m\cdot v = n\cdot h \\
+                                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Physik.tex:511: Missing $ inserted.
+<inserted text> 
+                $
+l.511   2\pi r\cdot m\cdot v = n\cdot h \\
+                                          
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Physik.tex:511: Missing } inserted.
+<inserted text> 
+                }
+l.511   2\pi r\cdot m\cdot v = n\cdot h \\
+                                          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Physik.tex:511: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.511   2\pi r\cdot m\cdot v = n\cdot h \\
+                                          
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./Physik.tex:512: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.512  $ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Physik.tex:512: Missing $ inserted.
+<inserted text> 
+                $
+l.512  $ \\
+           
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Physik.tex:512: Missing } inserted.
+<inserted text> 
+                }
+l.512  $ \\
+           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Physik.tex:512: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.512  $ \\
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./Physik.tex:515: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.515 ... r_{n}\cdot m_{e}\cdot v_{n} = n\cdot h\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Physik.tex:515: Missing $ inserted.
+<inserted text> 
+                $
+l.515 ... r_{n}\cdot m_{e}\cdot v_{n} = n\cdot h\\
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Physik.tex:515: Missing } inserted.
+<inserted text> 
+                }
+l.515 ... r_{n}\cdot m_{e}\cdot v_{n} = n\cdot h\\
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Physik.tex:515: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.515 ... r_{n}\cdot m_{e}\cdot v_{n} = n\cdot h\\
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Physik.tex:516: Missing $ inserted.
+<inserted text> 
+                $
+l.516  \implies
+                U_{n}\cdot m_{e}\cdot v_{n} = n\cdot h
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[27]
+
+./Physik.tex:524: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524     $F_{c} = F_{z}\\
+                          \\\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Physik.tex:524: Missing $ inserted.
+<inserted text> 
+                $
+l.524     $F_{c} = F_{z}\\
+                          \\\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Physik.tex:524: Missing } inserted.
+<inserted text> 
+                }
+l.524     $F_{c} = F_{z}\\
+                          \\\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Physik.tex:524: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.524     $F_{c} = F_{z}\\
+                          \\\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./Physik.tex:524: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524     $F_{c} = F_{z}\\\\
+                            \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Physik.tex:524: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524     $F_{c} = F_{z}\\\\\\
+                              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Physik.tex:525: Missing $ inserted.
+<inserted text> 
+                $
+l.525     \implies
+                   \frac{1}{4\pi\varepsilon_{0}}\cdot \frac{e^{2}}{r^{2}}  =...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./Physik.tex:529: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.529 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 530--531
+
+ []
+
+
+./Physik.tex:533: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.533 ... r_{n}\cdot m_{e}\cdot v_{n} = n\cdot h\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Physik.tex:533: Missing $ inserted.
+<inserted text> 
+                $
+l.533 ... r_{n}\cdot m_{e}\cdot v_{n} = n\cdot h\\
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Physik.tex:533: Missing } inserted.
+<inserted text> 
+                }
+l.533 ... r_{n}\cdot m_{e}\cdot v_{n} = n\cdot h\\
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Physik.tex:533: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.533 ... r_{n}\cdot m_{e}\cdot v_{n} = n\cdot h\\
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Physik.tex:534: Missing $ inserted.
+<inserted text> 
+                $
+l.534 \implies
+               v_{n} = \frac{n\cdot h}{2\pi r\cdot m_{e}} \\\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./Physik.tex:534: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.534 ...} = \frac{n\cdot h}{2\pi r\cdot m_{e}} \\
+                                                  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Physik.tex:534: Missing $ inserted.
+<inserted text> 
+                $
+l.534 ...} = \frac{n\cdot h}{2\pi r\cdot m_{e}} \\
+                                                  \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Physik.tex:534: Missing } inserted.
+<inserted text> 
+                }
+l.534 ...} = \frac{n\cdot h}{2\pi r\cdot m_{e}} \\
+                                                  \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Physik.tex:534: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.534 ...} = \frac{n\cdot h}{2\pi r\cdot m_{e}} \\
+                                                  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./Physik.tex:534: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.534 ...= \frac{n\cdot h}{2\pi r\cdot m_{e}} \\\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Physik.tex:537: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.537 \end{math}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 540--541
+
+ []
+
+
+./Physik.tex:543: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.543     v_{1} = \frac{h}{2\pi r \cdot m_{e}} \\
+                                                 \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Physik.tex:543: Missing $ inserted.
+<inserted text> 
+                $
+l.543     v_{1} = \frac{h}{2\pi r \cdot m_{e}} \\
+                                                 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Physik.tex:543: Missing } inserted.
+<inserted text> 
+                }
+l.543     v_{1} = \frac{h}{2\pi r \cdot m_{e}} \\
+                                                 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Physik.tex:543: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.543     v_{1} = \frac{h}{2\pi r \cdot m_{e}} \\
+                                                 \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./Physik.tex:543: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.543 ...v_{1} = \frac{h}{2\pi r \cdot m_{e}} \\\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Physik.tex:544: Missing $ inserted.
+<inserted text> 
+                $
+l.544     \implies
+                    F_{c}=\frac{1}{4\pi \varepsilon_{0}} \cdot  \frac{ e^{2}...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./Physik.tex:544: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.544 ...c{h}{2\pi r\cdot m_{e}} )^{2}}{r}=F_{z}\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Physik.tex:544: Missing $ inserted.
+<inserted text> 
+                $
+l.544 ...c{h}{2\pi r\cdot m_{e}} )^{2}}{r}=F_{z}\\
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Physik.tex:544: Missing } inserted.
+<inserted text> 
+                }
+l.544 ...c{h}{2\pi r\cdot m_{e}} )^{2}}{r}=F_{z}\\
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Physik.tex:544: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.544 ...c{h}{2\pi r\cdot m_{e}} )^{2}}{r}=F_{z}\\
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Physik.tex:545: Missing $ inserted.
+<inserted text> 
+                $
+l.545     \implies
+                   \frac{1}{\varepsilon_{0}} \cdot \frac{e^{2}}{r^{2}} =m_{e...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./Physik.tex:545: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.545 ...{4\pi^{2}r^{2}\cdot m_{e}^{2}\cdot r}  \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Physik.tex:545: Missing $ inserted.
+<inserted text> 
+                $
+l.545 ...{4\pi^{2}r^{2}\cdot m_{e}^{2}\cdot r}  \\
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Physik.tex:545: Missing } inserted.
+<inserted text> 
+                }
+l.545 ...{4\pi^{2}r^{2}\cdot m_{e}^{2}\cdot r}  \\
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Physik.tex:545: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.545 ...{4\pi^{2}r^{2}\cdot m_{e}^{2}\cdot r}  \\
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Physik.tex:546: Missing $ inserted.
+<inserted text> 
+                $
+l.546     \implies
+                   \frac{e^{2}}{\varepsilon_{0}}  = \frac{h^{2}}{\pi r \cdot...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./Physik.tex:546: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.546 ...0}}  = \frac{h^{2}}{\pi r \cdot m_{e}} \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Physik.tex:546: Missing $ inserted.
+<inserted text> 
+                $
+l.546 ...0}}  = \frac{h^{2}}{\pi r \cdot m_{e}} \\
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Physik.tex:546: Missing } inserted.
+<inserted text> 
+                }
+l.546 ...0}}  = \frac{h^{2}}{\pi r \cdot m_{e}} \\
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Physik.tex:546: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.546 ...0}}  = \frac{h^{2}}{\pi r \cdot m_{e}} \\
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Physik.tex:547: Missing $ inserted.
+<inserted text> 
+                $
+l.547     \implies
+                   r = \frac{h^{2}\cdot  \varepsilon_{0}}{\pi \cdot  m_{e}\c...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[28] [29] [30] (./Physik.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `Physik.out' has not changed.
-(rerunfilecheck)             Checksum: AA18661CD7A24A12583E58C05502BF29;3426.
+(rerunfilecheck)             Checksum: EF80FF4E786ED167624321C46AD71400;7919.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 28 (\begingroup)
+### semi simple group (level 1) entered at line 27 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 9407 strings out of 476076
- 143451 string characters out of 5793774
- 1935187 words of memory out of 5000000
- 31335 multiletter control sequences out of 15000+600000
+ 9526 strings out of 476076
+ 146181 string characters out of 5793774
+ 1937187 words of memory out of 5000000
+ 31416 multiletter control sequences out of 15000+600000
  567817 words of font info for 73 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,6n,79p,545b,654s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/aaron/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Physik.pdf (16 pages, 2617787 bytes).
+ 75i,6n,79p,545b,660s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/aaron/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Physik.pdf (30 pages, 4420962 bytes).
 PDF statistics:
- 292 PDF objects out of 1000 (max. 8388607)
- 238 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
- 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 501 PDF objects out of 1000 (max. 8388607)
+ 421 compressed objects within 5 object streams
+ 100 named destinations out of 1000 (max. 500000)
+ 367 words of extra memory for PDF output out of 10000 (max. 10000000)
 

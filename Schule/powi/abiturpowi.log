@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.12.15)  3 JAN 2025 14:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.12.15)  10 JAN 2025 09:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -321,19 +321,59 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout4 = `abiturpowi.toc'.
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+./abiturpowi.tex:29: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \textbf
+            {Q1}\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
+
+
+./abiturpowi.tex:41: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 \\\\
+         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./abiturpowi.tex:42: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \textbf
+            {Leistungskurs} :
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
 ./abiturpowi.tex:45: LaTeX Error: There's no line here to end.
@@ -342,180 +382,348 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45 \\\\
-         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./abiturpowi.tex:46: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.46 \textbf
-            {Leistungskurs} :
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./abiturpowi.tex:49: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49   \item \\D
+l.45   \item \\D
                 as politische Mehrebenensystem Vor dem Hintergrund politisch...
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
 
-./abiturpowi.tex:55: LaTeX Error: There's no line here to end.
+./abiturpowi.tex:51: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 \\\\
+l.51 \\\\
          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./abiturpowi.tex:56: LaTeX Error: There's no line here to end.
+./abiturpowi.tex:52: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 \subsection
-                {Q1.2}
+l.52 \textbf
+            {Q1.1}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
 
  []
 
 
-Overfull \hbox (48.94128pt too wide) in paragraph at lines 68--71
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+
+Overfull \hbox (48.94128pt too wide) in paragraph at lines 63--66
 \OT1/cmr/m/n/12 Her-aus-forderung der Parteien-demokratie, S. 108: In-stru-mente der Wahlforschung 
  []
 
-
-Overfull \hbox (20.83742pt too wide) in paragraph at lines 71--75
+[3]
+Overfull \hbox (20.83742pt too wide) in paragraph at lines 66--70
 \OT1/cmr/m/n/12 Plebiszit), S89 , S. 94 (Auf-gabe der Par-teen), S. 97: []Ubergang Volksparteien
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--84
+Underfull \hbox (badness 10000) in paragraph at lines 74--79
 
  []
 
 [4]
-Overfull \hbox (37.29558pt too wide) in paragraph at lines 100--101
+Overfull \hbox (37.29558pt too wide) in paragraph at lines 94--95
 []\OT1/cmr/m/n/12 Pluralisierung, In-ter-na-tion-al-isierung, Frag-men-tierung poli-tis-cher []Offentlichkeit 
  []
 
 [5]
-Overfull \hbox (6.69589pt too wide) in paragraph at lines 109--111
+Overfull \hbox (6.69589pt too wide) in paragraph at lines 103--105
 \OT1/cmr/m/n/12 S. 182 Grund-wis-sen, S. 183, S185: Kon-junk-tu-r-anal-yse,Konjunkturpolitik 
  []
 
 
-Overfull \hbox (0.514pt too wide) in paragraph at lines 114--115
+Overfull \hbox (0.514pt too wide) in paragraph at lines 108--109
 \OT1/cmr/m/n/12 geori-en-tierter Fiskalpoli-tik, ins-beson-dere In-fla-tion sowie Staatsver-schul-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
 
-Overfull \hbox (33.222pt too wide) in paragraph at lines 118--120
+Overfull \hbox (33.222pt too wide) in paragraph at lines 112--114
 []\OT1/cmr/m/n/12 Erkl^^?aungsmodelle kon-junk-tureller Schwankung (g^^?uterwirtschaftlich, monet^^?ar) 
  []
 
 
-Overfull \hbox (1.33205pt too wide) in paragraph at lines 118--120
+Overfull \hbox (1.33205pt too wide) in paragraph at lines 112--114
 \OT1/cmr/m/n/12 S. 201 (Ur-sachen kon-junk-tureller Schwankun-gen), S.202 (kon-junk-turelle
  []
 
 [6]
-Overfull \hbox (31.15955pt too wide) in paragraph at lines 145--146
+Overfull \hbox (31.15955pt too wide) in paragraph at lines 139--140
 []\OT1/cmr/m/n/12 Entwicklung von Besch^^?aftigung, Fachkr^^?aftemangel, Besch^^?aftigungsstrukturen
  []
 
 
-Overfull \hbox (20.27771pt too wide) in paragraph at lines 148--149
+Overfull \hbox (20.27771pt too wide) in paragraph at lines 142--143
 []\OT1/cmr/m/n/12 konkurrierende Gerechtigkeits-be-griffe (Bedarfs- und Leis-tungs-gerechtigkeit,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
 [7]
-Overfull \hbox (3.14731pt too wide) in paragraph at lines 175--177
+Overfull \hbox (3.14731pt too wide) in paragraph at lines 169--171
 []\OT1/cmr/m/n/12 M^^?oglichkeiten, Ver-fahren, Ak-teure kollek-tiver Kon-flik-t-b-vear-beitung und
  []
 
 
-Overfull \hbox (14.87082pt too wide) in paragraph at lines 175--177
+Overfull \hbox (14.87082pt too wide) in paragraph at lines 169--171
 \OT1/cmr/m/n/12 Friedenssicherung im Rah-men in-ter-na-tionaler In-sti-tu-tio-nen und B^^?undnisse 
  []
 
 
-Overfull \hbox (8.96068pt too wide) in paragraph at lines 175--177
+Overfull \hbox (8.96068pt too wide) in paragraph at lines 169--171
 \OT1/cmr/m/n/12 zu mul-ti-po-larit^^?at, S.306: zunehmende wichtigkeit von in-tern. B^^?undnissen
  []
 
 
-Overfull \hbox (25.80264pt too wide) in paragraph at lines 189--192
+Overfull \hbox (25.80264pt too wide) in paragraph at lines 183--186
 \OT1/cmr/m/n/12 sich-lich Au^^Yen-han-del, Frei-han-del-szo-nen, Bin-nenm^^?arkten, W^^?ahrungsr^^?aumen,
  []
 
-[8] [9] (./abiturpowi.aux)
+[8] [9]
+Overfull \hbox (10.86685pt too wide) in paragraph at lines 224--225
+\OT1/cmr/m/n/12 der B^^?urger zu sich-ern, bspw durch Ar-bi-et-srecht, Tar-i-fau-tonomie,
+ []
+
+
+Overfull \hbox (16.1807pt too wide) in paragraph at lines 224--225
+\OT1/cmr/m/n/12 Sozialver-sicherungspoli-tik, Jugen-, Kinder-, Fam-i-lien, Inklusions-
+ []
+
+
+Overfull \hbox (21.82924pt too wide) in paragraph at lines 228--229
+\OT1/cmr/m/n/12 ben^^?otigt auch Mitbes-tim-mung des Volkes (so er-fordert Demokratie
+ []
+
+
+Overfull \hbox (2.28084pt too wide) in paragraph at lines 235--236
+[]\OT1/cmr/m/n/12 Trotz Wahrung der Eigenst^^?andigkeit wer-den bes-timmte Befug-
+ []
+
+[10]
+Overfull \hbox (3.94902pt too wide) in paragraph at lines 239--240
+[]\OT1/cmr/m/n/12 Staatsoberhaupt wird gew^^?ahlt (Gegen-satz zur Monar-chie) $ =[]\OMS/cmsy/m/n/12 )
+ []
+
+
+LaTeX Warning: Hyper reference `sec:Gewaltenteilung' on page 11 undefined on input line 240.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--250
+
+ []
+
+[11]
+Overfull \hbox (0.2581pt too wide) in paragraph at lines 258--261
+\OT1/cmr/bx/n/12 Parlament, L^^?anderkammer, Bun-desregierung, Eu-rop^^?aische In-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--261
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--261
+
+ []
+
+
+Overfull \hbox (2.86394pt too wide) in paragraph at lines 274--275
+[]\OT1/cmr/m/n/12 Jeder Min-is-ter leitet seinen Zust^^?andigkeitsbereich eigenst^^?andig und
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 283--287
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--305
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--305
+
+ []
+
+[13]
+
+./abiturpowi.tex:314: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 \\\\
+          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./abiturpowi.tex:315: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.315 \textbf
+             {Der Bundespräsident}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--331
+
+ []
+
+[14]
+Overfull \hbox (23.70522pt too wide) in paragraph at lines 338--340
+\OT1/cmr/bx/n/12 tis-cher The-o-rien zur Gewal-tenteilung und Gewal-tenver-schr^^?ankung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--340
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--346
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--355
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--355
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--363
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--368
+
+ []
+
+
+./abiturpowi.tex:369: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.369 \\\textbf
+               {Herrschaftsbild Motesqieu} \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[15]
+Overfull \hbox (0.18762pt too wide) in paragraph at lines 369--373
+\OT1/cmr/m/n/12 -Auch Demokra-tien k^^?onnen zu Tyran-neien wer-den, wenn sie nicht durch
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--379
+
+ []
+
+
+./abiturpowi.tex:381: LaTeX Error: \begin{itemize} on input line 209 ended by \end{renz}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.381 \end{renz}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[16] (./abiturpowi.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package rerunfilecheck Info: File `abiturpowi.out' has not changed.
-(rerunfilecheck)             Checksum: B82DA90F26D92745C4352B91667B74B4;1014.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `abiturpowi.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `abiturpowi.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  AAE6FB24A7358655EF52C678ED386BAA;1822.
  ) 
 Here is how much of TeX's memory you used:
- 9397 strings out of 476076
- 142880 string characters out of 5793774
- 1932187 words of memory out of 5000000
- 31325 multiletter control sequences out of 15000+600000
- 566832 words of font info for 70 fonts, out of 8000000 for 9000
+ 9406 strings out of 476076
+ 143121 string characters out of 5793774
+ 1933187 words of memory out of 5000000
+ 31324 multiletter control sequences out of 15000+600000
+ 567169 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,6n,79p,336b,533s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on abiturpowi.pdf (9 pages, 57690 bytes).
+ 75i,6n,79p,336b,638s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/aaron/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on abiturpowi.pdf (16 pages, 77272 bytes).
 PDF statistics:
- 180 PDF objects out of 1000 (max. 8388607)
- 161 compressed objects within 2 object streams
- 65 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 176 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

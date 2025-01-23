@@ -1,0 +1,112 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{lwarp-titlesec}
+\usepackage{graphicx}
+\graphicspath{\media\Aaron\USBStick}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+\title{MatheGK, Rausch}
+\author{Aaron Tsamaltoupis}
+
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Q1: Calculus}
+\label{sec:Calculus}
+\newpage
+\newpage
+\section{Q2: Lineare Algebra}
+\label{sec:Q2: Lineare Algebra}
+\newpage
+\section{Q3: Stochastik}
+\subsection{Kombinatorik}
+\label{sec:Kombinatorik}
+
+\subsection{Stochastische Unabhängigkeit}
+\label{sec:Stochastische Unabhängigkeit}
+\begin{math}
+\end{math}\\\\
+Zwei Ereignisse A und B sind \textit{stochastisch unabhängig voneinander} iff \\
+\begin{center}
+	
+\\\begin{math}
+P_{B}(A) = P(A) \land  P_{A}(B) = P(B)$
+\end{math}\\\\
+\end{center}
+Dabei gilt:\\
+\begin{center}
+	
+\label{sec:Stochastik}
+\[_{sei P(B) > 0\land P(A) > 0}\]
+\[	
+P_{A}(B)= \frac{P(A\cap B)}{P(A)}= \frac{|A\cap B|}{|A|}    	
+\],\\
+\[	
+P_{B}(A)= \frac{P(B\cap A)}{P(B)}= \frac{|B\cap A|}{|B|}	\\\\\\
+\],\\
+\end{center}
+\subsubsection{stochastisch abhängige Ereignisse}
+\textit{Ein Ereignis B ist abhängig von einem anderen Ereignis A, wenn sich die Wahrscheinlichkeit von B ändert, wenn das Ereignis A eintritt.}	
+
+	
+\subsubsection{stochastisch unabhängige Ereignisse}
+
+
+\newpage
+\subsection{Vierfeldertafel}}
+\label{sec:{Vierfeldertafel}}
+
+
+\begin{tabular}{c|c|c|c}
+    &$A&\overline{A}&Summe&
+    \hline
+    
+    B&$|A\cap B|$&$|\overline{A}\cap B|$&$|B|$&
+    \hline
+    
+    \overline{B}&$|\overline{B}\capA|$&$|\overline{B}\cap \overline{A}|$&$|\overline{B}|$& \hline Summe& $|A|$&$|\overline{A}|$& \Omega   
+\end{tabular}
+\\\\
+Beispiel: Oktoberfest\\
+
+T=Tourist\\
+$\overline{T}$=Münchner\\
+L = Lederhose\\
+$\overline{L}$ = keine Lederhose\\\\
+	\begin{tabular}{c|c|c|c|c}
+		 &$L$&$\overline{L}$&Summe&Beschreibung&
+		T&140&60&200&	\textit{Anzahl Touristen}&	
+		\overline{T}&10&40&50&\textit{Anzahl Münchner}&
+			    Summe&150&100&250$
+	\end{tabular}
+	\\\\
+	Nach der \hyperref[sec:Stochastische Unabhängigkeit]{Formel bei stochastischer Abhängigkeit} gilt:
+	\[
+		P_{L}(T) = \frac{L\cap T}{L}=\frac{ 140}{150}\approx 93,33%	
+	\]
+\newpage
+\subsection{Zufallsgröße}
+\label{sec:Zufallsgröße}
+\begin{tabular}
+  g&g&g\\
+\end{tabular}
+
+\subsubsection{Standartabweichung}
+\label{sec:Standartabweichung}
+\begin{math}
+  \sigma (X) = \sqrt{x_{1}-\mu)^{2}\cdot P(X-x_{1})+(x_{2}-\mu)^{2} \cdot P(X=x_{2}) +...+(x_{m}-\mu)^{2}\cdot P(X=x_{m}) }
+\end{math}
+
+
+\end{document}

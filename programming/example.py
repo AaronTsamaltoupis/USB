@@ -1,5 +1,4 @@
-import sqlite3
-
+import numpy as np
 
 connection = sqlite3.connect("text_database.db")
 
